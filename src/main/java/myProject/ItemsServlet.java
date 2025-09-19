@@ -11,8 +11,8 @@ import java.sql.*;
 
 public class ItemsServlet extends HttpServlet {
     private static final String URL = "jdbc:mysql://localhost:3306/warehouse_db";
-    private static final String USER = "root";
-    private static final String PASSWORD = "springcourse";
+    private static final String USER = "myWMS";
+    private static final String PASSWORD = "myWMS";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
